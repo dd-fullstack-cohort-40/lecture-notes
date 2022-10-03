@@ -111,6 +111,7 @@
     - All relevant example and other repos posted there
     - Lecture Notes and assignments found in the lecture-notes repo
 - Note taking tools
+    - searchable
     - webstorm/GitHub
     - any IDE
     - otter.ai

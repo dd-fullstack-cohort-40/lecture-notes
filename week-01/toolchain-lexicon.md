@@ -15,8 +15,8 @@
     - chocolatey
 
 ## What We Teach
-- Modified MERN Stack
-    - MySQL database - holds the information in a way that is quickly retrievable
+- Modified MERN Stack (PERN)
+    - PostgreSQL database - holds the information in a way that is quickly retrievable
         - In classic MERN stack, the M stands for MongoDB - Similar idea, but architecture of the database is slightly less formal.
     - Express - Javascript platform that acts as a way for us to interact with the database more naturally
     - React frontend javascript library - Builds page elements on the browser-side
