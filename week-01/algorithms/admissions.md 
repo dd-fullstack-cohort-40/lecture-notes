@@ -1,0 +1,30 @@
+```
+Albuquerque Museum Admission
+
+ 
+ x Adults 	$6
+ x Adults / NM Residents with ID 	$5
+Seniors 65+ 	$4
+x Children 4 to 12 years old	$3
+x Children 3 years old and younger	Free
+ x Albuquerque Museum Foundation Members with ID
+Contact info@albuquerquemuseumfoundation.org for Member promo code to receive discount	Free 
+```
+
+step 1 start 
+step 2 declare variable  age based on user input
+step 3 declare variable isResident based on user input
+step 4 declare variable isFondationMemberWithId based on user input
+step 5 if isFoundationMemberWithId || age < 4
+    display free
+step 6 age < 13
+    display price 3$
+
+setp 7 else if and age < 65
+    step 6.1 if isResident === true
+        display price 5$
+    step 6.2 else 
+        display  price 6$
+step 8 
+    display price 4$
+step 9 stop    
