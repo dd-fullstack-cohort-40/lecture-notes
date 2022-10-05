@@ -10,4 +10,6 @@ All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding Assignments
 * [UI/UX Challenge Due Friday 10-7](https://classroom.github.com/a/FyxCZa8x)
+* [CSS Challenge Due Tuesday 10-11](https://classroom.github.com/a/ZHpQo0eb)
+
 ### Past Assignments
