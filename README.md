@@ -10,6 +10,8 @@ All assignments are due before class at 8:00 a.m. on the due date.
 
 ### Outstanding Assignments
 * [Bootstrap Challenge Due Tue 10-18](https://classroom.github.com/a/p1AdqUuG)
+* [PWP Milestone 2 Due Thursday 10/20](https://ddc-web-curriculum.cnm.edu/pwp-milestone-two/)
+
 ### Past Assignments
 * [UI/UX Challenge Due Friday 10-7](https://classroom.github.com/a/FyxCZa8x)
 * [CSS Challenge Due Tuesday 10-11](https://classroom.github.com/a/ZHpQo0eb)
