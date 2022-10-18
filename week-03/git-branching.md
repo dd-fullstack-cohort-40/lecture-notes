@@ -20,7 +20,7 @@ recent commit on the branch you're looking at.
 
 Branching allows us to create complex workflows to manage our software releases. One of the most popular is called Git Flow.
 ### Basic principles
-- Don't develop on the master branch. **EVER**. Instead, merge other branches into it when they're production-ready.
+- Don't develop on the main branch. **EVER**. Instead, merge other branches into it when they're production-ready.
 - There's a **develop branch** that serves as the basis for almost all new code
 - New code should be developed on **feature branches** that are branched off from development.
 - Feature branches should be small and self-contained. Frequently, this means one per ticket.
