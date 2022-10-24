@@ -242,4 +242,5 @@ console.log(theFirstUser.address.geo.lat)
 
 for(let user of users) {
   console.log(`${user.name} is located at lat: ${user.address.geo.lat}, lng: ${user.address.geo.lng}`)
+  // console.log(user.name + ' is located at lat: ' + user.address.geo.lat + ', lng: ' + user.address.geo.lng)
 }
