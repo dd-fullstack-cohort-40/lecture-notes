@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Events Challenge</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>JS Events Challenge</h1>
+<h2>Find and Replace</h2>
+<p id="findAndReplaceParagraph">Smelly cheesey cheese triangles fondue. Cheesy grin port-salut stilton st. agur blue cheese port-salut parmesan paneer manchego. Monterey jack jarlsberg cheese on toast danish fontina bocconcini parmesan fromage frais cut the cheese. Bavarian bergkase stilton cheese slices cheese on toast brie hard cheese rubber cheese goat. Cheddar.</p>
+<form onsubmit="findAndReplace(event)">
+	<label for="text-find">Find</label>
+	<input type="text" id="text-find"/>
+	<label for="text-replace">Replace</label>
+	<input type="text" id="text-replace">
+	<button type="submit">Submit</button>
+</form>
+<h2>Reverse Text</h2>
+<p id="pork">T-bone buffalo porchetta bresaola rump leberkas salami. Pig brisket shoulder fatback shankle flank ham hock bresaola cupim alcatra kielbasa salami filet mignon drumstick pancetta. Salami chicken shankle jowl, boudin picanha pork rump ribeye. Jowl drumstick short loin shankle, shank ground round pork belly andouille landjaeger hamburger burgdoggen. Capicola shankle biltong pork belly landjaeger andouille beef ribs beef buffalo fatback.</p>
+<button onclick="buttonClicked()">Reverse Text</button>
+<h2>Click and Drag</h2>
+<div class="container">
+	<p class="draggable" draggable="true">1</p>
+	<p class="draggable" draggable="true">2</p>
+</div>
+<div class="container">
+	<p class="draggable" draggable="true">3</p>
+	<p class="draggable" draggable="true">4</p>
+</div>
+
+<h2>Scroll to Delete</h2>
+<p id="scrollDelete" onwheel="scrollDelete(event)">Halloumi cheese and biscuits everyone loves. Swiss halloumi cut the cheese stilton bocconcini cheese slices pecorino feta. Edam brie brie pepper jack port-salut ricotta say cheese swiss. Stinking bishop cheesy grin cream cheese paneer melted cheese. Smelly cheese cheese triangles fondue. Cheesy grin port-salut stilton st. agur blue cheese port-salut parmesan paneer manchego. Monterey jack jarlsberg cheese on toast danish fontina bocconcini parmesan fromage frais cut the cheese. Bavarian bergkase stilton cheese slices cheese on toast brie hard cheese rubber cheese goat. Cheddar. Cheesy feet lancashire cheese slices. Paneer macaroni cheese bocconcini when the cheese comes out everybody's happy who moved my cheese say cheese bocconcini cottage cheese. Queso caerphilly cheese slices swiss ricotta jarlsberg jarlsberg stilton. Manchego when the cheese comes out everybody's happy swiss. Parmesan chalk and cheese mascarpone. Rubber cheese monterey jack croque monsieur smelly cheese feta parmesan cheesy feet st. agur blue cheese. Bocconcini roquefort st. agur blue cheese jarlsberg pepper jack when the cheese comes out everybody's happy fromage cottage cheese. Pepper jack.	Pepper jack caerphilly say cheese. Pecorino cheesecake bavarian bergkase manchego hard cheese cheese strings mozzarella monterey jack. Rubber cheese cottage cheese bocconcini blue castello when the cheese comes out everybody's happy cow lancashire cow. Dolcelatte paneer pecorino camembert de normandie monterey jack port-salut.</p>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
