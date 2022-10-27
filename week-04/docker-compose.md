@@ -22,7 +22,7 @@
     - [Cheat Sheet](https://kapeli.com/cheat_sheets/YAML.docset/Contents/Resources/Documents/index)
 
 ## Docker Compose Code Review
-- Example repo: https://github.com/Deep-Dive-Coding-Fullstack-Licensing/docker-compose
+- Example repo: https://github.com/dd-fullstack-cohort-40/docker-compose-example
 - docker-compose.yml
     - contains the link between our backend, frontend, and sql containers
     - volume configuration links our containers ephemeral hard drive to actual hard drive location on our server
