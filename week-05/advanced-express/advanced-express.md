@@ -2,7 +2,7 @@
 
 ## How Express works
 ![Express Diagram](img.png)
-* Express is between the database (MySQL) and the webserver (nginx)
+* Express is between the database (PostgreSQL) and the webserver (nginx)
 * Express translates our data into JSON objects provided by our API
 * Step 1: Request -> Session -> Router
     * Passes through Morgan logger
@@ -12,6 +12,12 @@
     * GET request to /apis/foo -> execute `selectAllFoo()`
     * GET request to /apis/foo/bar -> execute `selectFooByBar()`
     * POST request to /apis/foo -> execute `insertFoo()`
+
+## HTTP > SQL (terminology)
+* GET > SELECT
+* POST > INSERT
+* PUT > UPDATE
+* DELETE > DELETE
 
 ## Database functions
 * a.k.a. SQL Enabled Functions
